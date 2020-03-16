@@ -1,0 +1,28 @@
+site_name: WPtest
+repo_name: 'MkdocsSample'
+repo_url: 'https://github.com'
+
+theme:
+  languaje: 'en, es'
+  logo: 'logo.png'
+  name: 'material'
+  feature:
+    tabs: true
+  palette:
+    primary: 'Black'
+    accent: 'Black'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: flow
+        - class: uml-flowchart
+        - format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+  - awesome-pages
