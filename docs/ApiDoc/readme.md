@@ -40,6 +40,7 @@ docfxspage or docfxspage -z (using -z parameter creates  _site_copy.7z )
 ```
 docfxspage
 ```
+Verify site copy generation
 
 ![_site_copy](res/create_folder.png "_site_copy")
 
